@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ropshopeco - Inicio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">Ropshopeco</div>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="tienda.html">Tienda</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="login.html">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Slider -->
+    <section class="slider">
+        <div class="slides">
+            <img src="img/slide1.jpg" alt="Slide 1">
+            <img src="img/slide2.jpg" alt="Slide 2">
+            <img src="img/slide3.jpg" alt="Slide 3">
+            <img src="img/slide4.jpg" alt="Slide 4">
+        </div>
+    </section>
+
+    <!-- Introducción -->
+    <section class="intro">
+        <h1>Bienvenido a Ropshopeco</h1>
+        <p>Tu tienda de moda sostenible donde la calidad y el respeto por el medio ambiente van de la mano. Descubre nuestras prendas únicas y contribuye a un futuro más verde.</p>
+    </section>
+
+    <!-- Productos Destacados -->
+    <section class="productos-destacados">
+        <h2>Productos Destacados</h2>
+        <div class="grid-container">
+            <!-- Producto 1 -->
+            <div class="grid-item">
+                <img src="img/p-1.png" alt="Producto 1">
+                <h3>Producto 1</h3>
+                <p>Descripción breve del producto 1. Precio: S/.50.00</p>
+                <a href="tienda.html">Comprar ahora</a>
+            </div>
+            <!-- Producto 2 -->
+            <div class="grid-item">
+                <img src="img/p-2.png" alt="Producto 2">
+                <h3>Producto 2</h3>
+                <p>Descripción breve del producto 2. Precio: S/.75.00</p>
+                <a href="tienda.html">Comprar ahora</a>
+            </div>
+            <!-- Producto 3 -->
+            <div class="grid-item">
+                <img src="img/p-5.png" alt="Producto 3">
+                <h3>Producto 3</h3>
+                <p>Descripción breve del producto 3. Precio: S/.40.00</p>
+                <a href="tienda.html">Comprar ahora</a>
+            </div>
+            <!-- Producto 4 -->
+            <div class="grid-item">
+                <img src="img/p-6.png" alt="Producto 4">
+                <h3>Producto 4</h3>
+                <p>Descripción breve del producto 4. Precio: S/.60.00</p>
+                <a href="tienda.html">Comprar ahora</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Reciente -->
+    <section class="blog-reciente">
+        <h2>Artículos Recientes del Blog</h2>
+        <div class="grid-container">
+            <!-- Blog Post 1 -->
+            <div class="grid-item">
+                <img src="ruta_imagen_blog1.jpg" alt="Blog 1">
+                <h3>Título del Blog 1</h3>
+                <p>Extracto del contenido del blog 1. Fecha: 10 de octubre de 2024</p>
+                <a href="blog.html">Leer más</a>
+            </div>
+            <!-- Blog Post 2 -->
+            <div class="grid-item">
+                <img src="ruta_imagen_blog2.jpg" alt="Blog 2">
+                <h3>Título del Blog 2</h3>
+                <p>Extracto del contenido del blog 2. Fecha: 12 de octubre de 2024</p>
+                <a href="blog.html">Leer más</a>
+            </div>
+            <!-- Blog Post 3 -->
+            <div class="grid-item">
+                <img src="ruta_imagen_blog3.jpg" alt="Blog 3">
+                <h3>Título del Blog 3</h3>
+                <p>Extracto del contenido del blog 3. Fecha: 15 de octubre de 2024</p>
+                <a href="blog.html">Leer más</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios de Clientes -->
+    <!-- Testimonios de Clientes -->
+<section class="testimonios">
+    <h2>Testimonios</h2>
+    <div class="testimonio-container">
+        <div class="testimonio">
+            <p>"Me encantan los productos de Ropshopeco. ¡Son únicos y de alta calidad!"</p>
+            <cite>- Ana M.</cite>
+        </div>
+        <div class="testimonio">
+            <p>"La moda sostenible nunca había sido tan accesible y estilizada."</p>
+            <cite>- Luis P.</cite>
+        </div>
+        <div class="testimonio">
+            <p>"Excelente calidad y atención al cliente. Volveré a comprar."</p>
+            <cite>- María J.</cite>
+        </div>
+        <div class="testimonio">
+            <p>"Una experiencia de compra excepcional, productos maravillosos."</p>
+            <cite>- Juan C.</cite>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Popup Descuento -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span id="close-popup">&times;</span>
+            <h2>¡Obtén un 10% de descuento!</h2>
+            <p>Introduce tu correo para recibir el descuento en tu primera compra.</p>
+            <form id="discount-form">
+                <input type="email" placeholder="Tu correo" required>
+                <button type="submit">Obtener Descuento</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Ropshopeco</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            <a href="https://www.twitter.com" target="_blank">Twitter</a>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
